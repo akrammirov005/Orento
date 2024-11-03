@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Orento</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-content max-width">
+        <div class="header-row">
+          <div class="logo">
+            <img src="./assets/header-logo.svg" alt="" />
+          </div>
+          <div class="menu">
+            <ul class="menu-box">
+              <li><a class="menu-item" href="#">Numbers</a></li>
+              <li><a class="menu-item" href="#">Our work</a></li>
+              <li><a class="menu-item" href="#">Gallery</a></li>
+              <li><a class="menu-item" href="#">Download</a></li>
+              <li><a class="menu-item" href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="contact-number">
+            <a href="#">+1 294-23-53</a>
+          </div>
+          <div class="bueger-menu">
+            <svg
+              width="19"
+              height="10"
+              viewBox="0 0 19 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0.2C0 0.0895431 0.0895431 0 0.2 0H18.8C18.9105 0 19 0.0895431 19 0.2V1.8C19 1.91046 18.9105 2 18.8 2H0.200001C0.0895439 2 0 1.91046 0 1.8V0.2Z"
+                fill="#282828"
+              />
+              <path
+                d="M0 4.2C0 4.08954 0.0895431 4 0.2 4H18.8C18.9105 4 19 4.08954 19 4.2V5.8C19 5.91046 18.9105 6 18.8 6H0.200001C0.0895439 6 0 5.91046 0 5.8V4.2Z"
+                fill="#282828"
+              />
+              <path
+                d="M0 8.2C0 8.08954 0.0895431 8 0.2 8H18.8C18.9105 8 19 8.08954 19 8.2V9.8C19 9.91046 18.9105 10 18.8 10H0.200001C0.0895439 10 0 9.91046 0 9.8V8.2Z"
+                fill="#282828"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="modal-menu">
+          <div class="modal-menu__content">
+            <div class="modal-menu__column">
+              <ul class="modal-menu__column-menu">
+                <li>
+                  <a href="#" class="modal-menu__column-menu__item">Numbers</a
+                  ><a href="#" class="modal-menu__column-menu__item">Our work</a
+                  ><a href="#" class="modal-menu__column-menu__item">Gallery</a
+                  ><a href="#" class="modal-menu__column-menu__item">Download</a
+                  ><a href="#" class="modal-menu__column-menu__item">FAQ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-menu__contact">
+              <a href="#">+1 294-23-53</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner -->
+
+    <div class="banner-container">
+      <div class="banner-square">
+        <img src="./assets/dotted-square.png" alt="" />
+      </div>
+      <div class="banner-content max-width">
+        <div class="banner-row">
+          <div class="banner-text">
+            <div class="overlay-text"></div>
+            <h1 class="banner-text__h1">Renting a car is not that hard</h1>
+            <p class="banner-text__p">
+              To get started, download the application, create an account, enter
+              the data and start laughing.
+            </p>
+          </div>
+          <div class="banner-img">
+            <div class="overlay-car"></div>
+            <img class="car" src="./assets/car.png" alt="" />
+          </div>
+        </div>
+        <div class="banner-store__row">
+          <div class="banner-store__row-box">
+            <div class="banner-store__card card-banner">
+              <div class="banner-store__card-img">
+                <img
+                  src="./assets/714262829697e9749a4aa86b3c1f5538.svg"
+                  alt=""
+                />
+              </div>
+              <div class="banner-store__card-text">
+                <p>Get it from</p>
+                <h3>Google play</h3>
+              </div>
+            </div>
+            <div class="banner-store__card card-banner">
+              <div class="banner-store__card-img">
+                <img src="./assets/Apple_logo_black 2.svg" alt="" />
+              </div>
+              <div class="banner-store__card-text">
+                <p>Download on the</p>
+                <h3>Apple store</h3>
+              </div>
+            </div>
+            <div class="banner-store__card card-banner">
+              <div class="banner-store__card-img">
+                <img src="./assets/Huawei_AppGallery.svg" alt="" />
+              </div>
+              <div class="banner-store__card-text">
+                <p>Download on the</p>
+                <h3>App gallery</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--project -->
+
+    <div class="project-container">
+      <div class="project-content max-width">
+        <div class="project-row">
+          <div class="project-amount">
+            <div
+              class="project-amount__card"
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="500"
+            >
+              <h1>800+</h1>
+              <p>Successful orders</p>
+            </div>
+            <div
+              class="project-amount__card"
+              data-aos="fade-right"
+              data-aos-delay="500"
+              data-aos-duration="500"
+            >
+              <h1>28,000</h1>
+              <p>Visitors</p>
+            </div>
+            <div
+              class="project-amount__card"
+              data-aos="fade-right"
+              data-aos-delay="700"
+              data-aos-duration="500"
+            >
+              <h1>150</h1>
+              <p>Active user</p>
+            </div>
+          </div>
+          <div class="project-text">
+            <div
+              class="project-text__h1"
+              style="overflow: hidden"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="300"
+              data-aos-duration="500"
+            >
+              <h1>
+                Our project is distinguished by a high level of design and
+                quality of support.
+              </h1>
+            </div>
+            <div
+              class="project-text__p"
+              style="overflow: hidden"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="500"
+              data-aos-duration="500"
+            >
+              <p>
+                We prefer to make simple, convenient conditions that are
+                intuitive for users.
+              </p>
+            </div>
+            <div
+              class="project-text__p"
+              style="overflow: hidden"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+              data-aos-delay="700"
+              data-aos-duration="500"
+            >
+              <p>
+                Our project is distinguished by a high level of design, which
+                was noted by an international expert jury.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- discard -->
+
+    <div class="discard-container">
+      <div class="discard-square__top">
+        <img src="./assets/dotted-square.png" alt="" />
+      </div>
+      <div class="discard-content max-width">
+        <div class="discard-row">
+          <div
+            class="discard"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="300"
+            data-aos-duration="500"
+          >
+            <div class="discard-title">
+              <h1>01</h1>
+            </div>
+            <div class="discard-text">
+              <h3>Download</h3>
+              <p>
+                Download the application through our website or any app store on
+                your phone
+              </p>
+            </div>
+          </div>
+          <div
+            class="discard"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="500"
+            data-aos-duration="500"
+          >
+            <div class="discard-title">
+              <h1>02</h1>
+            </div>
+            <div class="discard-text">
+              <h3>Registration</h3>
+              <p>
+                Register and enter your details such as passport and driver's
+                license
+              </p>
+            </div>
+          </div>
+          <div
+            class="discard"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="700"
+            data-aos-duration="500"
+          >
+            <div class="discard-title">
+              <h1>03</h1>
+            </div>
+            <div class="discard-text">
+              <h3>Company rules</h3>
+              <p>
+                To continue, you must agree to our rules before the trip. You
+                should read all the lists
+              </p>
+            </div>
+          </div>
+          <div
+            class="discard"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="900"
+            data-aos-duration="500"
+          >
+            <div class="discard-title">
+              <h1>04</h1>
+            </div>
+            <div class="discard-text">
+              <h3>Enjoy the trip</h3>
+              <p>
+                It remains to choose a car, a car and a payment method and go
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="discard-square__bottom">
+        <img src="./assets/dotted-square.png" alt="" />
+      </div>
+    </div>
+
+    <!-- brand -->
+
+    <div class="brand-container">
+      <div class="brand-content max-width">
+        <div class="brand-row">
+          <div
+            class="brand-title"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-aos-duration="600"
+            style="overflow: hidden"
+          >
+            <h1>Brands we trust</h1>
+          </div>
+          <div
+            class="brand-text"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-aos-duration="600"
+            style="overflow: hidden"
+          >
+            <h3>We represent the best brands as well as the most reliable</h3>
+            <p>
+              Automakers with multi-annual global awards in many categories The
+              list of cars is very large, you can choose for a long time.Prices
+              depend on the type of trip and are not very expensive compared to
+              many competitors
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gallery -->
+
+    <div class="gallery-container">
+      <div class="gallery-content max-width">
+        <div class="gallery-row">
+          <div class="gallery-item__column">
+            <img src="./assets/gallery__volumn.png" alt="" />
+          </div>
+          <div class="gallery-item__box">
+            <div class="gallery-item__row">
+              <div class="gallery-item__card">
+                <img src="./assets/gallery-row__item (5).png" alt="" />
+              </div>
+              <div class="gallery-item__card">
+                <img src="./assets/gallery-row__item (2).png" alt="" />
+              </div>
+              <div class="gallery-item__card">
+                <img src="./assets/gallery-row__item (6).png" alt="" />
+              </div>
+            </div>
+            <div class="gallery-item__row different-size">
+              <div class="gallery-item__card">
+                <img src="./assets/gallery-row__item (1).png" alt="" />
+              </div>
+              <div class="gallery-item__card">
+                <img src="./assets/gallery-row__item (2).png" alt="" />
+              </div>
+              <div class="gallery-item__card">
+                <img src="./assets/gallery-row__item (3).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- app -->
+
+    <div class="app-container">
+      <div class="app-content max-width">
+        <div class="app-square-top app-square__top">
+          <img src="./assets/dotted-square.png" alt="" />
+        </div>
+        <div class="app-row">
+          <div class="app-text">
+            <h1
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="300"
+              data-aos-duration="500"
+            >
+              Download our app to get most out of it
+            </h1>
+            <p
+              class="app-text__p"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="400"
+              data-aos-duration="600"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat
+            </p>
+            <div class="app-store__row">
+              <div
+                class="banner-store__card"
+                data-aos="fade-right"
+                data-aos-duration="400"
+                data-aos-delay="700"
+              >
+                <div class="banner-store__card-img">
+                  <img
+                    src="./assets/714262829697e9749a4aa86b3c1f5538.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="banner-store__card-text">
+                  <p>Get it from</p>
+                  <h3>Google play</h3>
+                </div>
+              </div>
+              <div
+                class="banner-store__card"
+                data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-delay="500"
+              >
+                <div class="banner-store__card-img">
+                  <img src="./assets/Apple_logo_black 2.svg" alt="" />
+                </div>
+                <div class="banner-store__card-text">
+                  <p>Download on the</p>
+                  <h3>Apple store</h3>
+                </div>
+              </div>
+              <div
+                class="banner-store__card"
+                data-aos="fade-right"
+                data-aos-duration="600"
+                data-aos-delay="200"
+              >
+                <div class="banner-store__card-img">
+                  <img src="./assets/Huawei_AppGallery.svg" alt="" />
+                </div>
+                <div class="banner-store__card-text">
+                  <p>Download on the</p>
+                  <h3>App gallery</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app-img">
+            <img src="./assets/phone.png" alt="" />
+          </div>
+        </div>
+        <div class="app-square-bottom app-square__bottom">
+          <img src="./assets/dotted-square.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider -->
+
+    <div class="slider-container">
+      <div class="slider-content max-width">
+        <div class="slider-title">
+          <h1 class="slider-title__h1">Reviews</h1>
+          <div class="slider-btn">
+            <button class="next">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M19 24L9 14L19 4" stroke="#282828" stroke-width="2" />
+              </svg>
+            </button>
+            <button class="prev">
+              <svg
+                width="13"
+                height="22"
+                viewBox="0 0 13 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M1 1L11 11L1 21" stroke="#282828" stroke-width="2" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="slider-row responsive"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="600"
+        >
+          <div class="slider-card__wrapper">
+            <div class="slider-card">
+              <div class="slider-card__img">
+                <img src="./assets/slider-img.png" alt="" />
+              </div>
+              <div class="slider-card__text">
+                <h2>Robert Jowny</h2>
+                <p>Smm</p>
+                <h3>
+                  “We live on the surface of our planet Earth. Gravity keeps
+                  us here on the Earth. Gravity is an invisible force that pulls
+                  things and people toward the center of the Earth.“
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card__wrapper">
+            <div class="slider-card">
+              <div class="slider-card__img">
+                <img src="./assets/slider-img.png" alt="" />
+              </div>
+              <div class="slider-card__text">
+                <h2>Robert Jowny</h2>
+                <p>Smm</p>
+                <h3>
+                  “We live on the surface of our planet Earth. Gravity keeps
+                  us here on the Earth. Gravity is an invisible force that pulls
+                  things and people toward the center of the Earth.“
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card__wrapper">
+            <div class="slider-card">
+              <div class="slider-card__img">
+                <img src="./assets/slider-img.png" alt="" />
+              </div>
+              <div class="slider-card__text">
+                <h2>Robert Jowny</h2>
+                <p>Smm</p>
+                <h3>
+                  “We live on the surface of our planet Earth. Gravity keeps
+                  us here on the Earth. Gravity is an invisible force that pulls
+                  things and people toward the center of the Earth.“
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card__wrapper">
+            <div class="slider-card">
+              <div class="slider-card__img">
+                <img src="./assets/slider-img.png" alt="" />
+              </div>
+              <div class="slider-card__text">
+                <h2>Robert Jowny</h2>
+                <p>Smm</p>
+                <h3>
+                  “We live on the surface of our planet Earth. Gravity keeps
+                  us here on the Earth. Gravity is an invisible force that pulls
+                  things and people toward the center of the Earth.“
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card__wrapper">
+            <div class="slider-card">
+              <div class="slider-card__img">
+                <img src="./assets/slider-img.png" alt="" />
+              </div>
+              <div class="slider-card__text">
+                <h2>Robert Jowny</h2>
+                <p>Smm</p>
+                <h3>
+                  “We live on the surface of our planet Earth. Gravity keeps
+                  us here on the Earth. Gravity is an invisible force that pulls
+                  things and people toward the center of the Earth.“
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card__wrapper">
+            <div class="slider-card">
+              <div class="slider-card__img">
+                <img src="./assets/slider-img.png" alt="" />
+              </div>
+              <div class="slider-card__text">
+                <h2>Robert Jowny</h2>
+                <p>Smm</p>
+                <h3>
+                  “We live on the surface of our planet Earth. Gravity keeps
+                  us here on the Earth. Gravity is an invisible force that pulls
+                  things and people toward the center of the Earth.“
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dropdown -->
+
+    <div class="dropdown-container">
+      <div class="dropdown-content max-width">
+        <div class="dropdown-title">
+          <h1>FAQ</h1>
+        </div>
+        <div class="dropdown-column">
+          <div
+            class="dropdown"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="200"
+            data-aos-duration="600"
+          >
+            <h1>Branding</h1>
+            <div class="dropdown-item__content">
+              <p>
+                Creating a design for brands and involving people who interact
+                with them is one of the main goals of our company.
+              </p>
+              <div class="dropdown-svg">
+                <svg
+                  width="22"
+                  height="13"
+                  viewBox="0 0 22 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 12L11 2L21 12"
+                    stroke="#282828"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="dropdown"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="400"
+            data-aos-duration="600"
+          >
+            <h1>Prices</h1>
+            <div class="dropdown-item__content">
+              <p>
+                Creating a design for brands and involving people who interact
+                with them is one of the main goals of our company.
+              </p>
+              <div class="dropdown-svg">
+                <svg
+                  width="22"
+                  height="13"
+                  viewBox="0 0 22 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 12L11 2L21 12"
+                    stroke="#282828"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="dropdown"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="600"
+            data-aos-duration="600"
+          >
+            <h1>Documents</h1>
+            <div class="dropdown-item__content">
+              <p>
+                Creating a design for brands and involving people who interact
+                with them is one of the main goals of our company.
+              </p>
+              <div class="dropdown-svg">
+                <svg
+                  width="22"
+                  height="13"
+                  viewBox="0 0 22 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 12L11 2L21 12"
+                    stroke="#282828"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="dropdown last-card"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-delay="700"
+            data-aos-duration="600"
+          >
+            <h1>Policy</h1>
+            <div class="dropdown-item__content">
+              <p>
+                Creating a design for brands and involving people who interact
+                with them is one of the main goals of our company.
+              </p>
+              <div class="dropdown-svg">
+                <svg
+                  width="22"
+                  height="13"
+                  viewBox="0 0 22 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 12L11 2L21 12"
+                    stroke="#282828"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer-container">
+      <div class="footer-content max-width">
+        <div class="footer-row">
+          <div class="footer-text">
+            <div class="footer-logo">
+              <img src="./assets/header-logo.svg" alt="" />
+            </div>
+            <div class="footer-contacts">
+              <h2>Contacts</h2>
+              <div class="footer-contacts__row">
+                <div class="footer-contacts__row-address">
+                  <h3>Address</h3>
+
+                  <ul>
+                    <li><a href="#"> Znamenka St., 11, Moscow</a></li>
+                    <li><a href="#">hello@uprock.pro Follow us</a></li>
+                    <li><a href="#">+ 7 922 555 1234</a></li>
+                  </ul>
+                </div>
+                <div class="footer-contacts__row-social">
+                  <h3>Follow us</h3>
+                  <ul>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-privacy">
+              <div class="footer-privacy__link">
+                <a href="#">Press</a>
+                <a href="#">Career</a>
+                <a href="#">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-map">
+            <div style="width: 100%; height: 100%">
+              <iframe
+                width="100%"
+                height="100%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ><a href="https://www.maps.ie/distance-area-calculator.html"
+                  >area maps</a
+                ></iframe
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="./js/parallax.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script>
+      $(".responsive").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: ".next",
+        nextArrow: ".prev",
+        responsive: [
+          {
+            breakpoint: 650,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 550,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>
+      let dropdownP = document.querySelectorAll(".dropdown-item__content > p");
+      let dropdown = document.querySelectorAll(".dropdown");
+      let svg = document.querySelectorAll(".dropdown-svg");
+
+      for (
+        let i = 0;
+        i < dropdown.length && dropdownP.length && svg.length;
+        i++
+      ) {
+        const down = dropdown[i];
+        const downP = dropdownP[i];
+        const rot = svg[i];
+        down.addEventListener("click", () => {
+          if (downP.style.maxHeight) {
+            downP.style.maxHeight = null;
+          } else {
+            downP.style.maxHeight = downP.scrollHeight + "px";
+          }
+        });
+        down.addEventListener("click", () => {
+          rot.classList.toggle("rotate");
+        });
+      }
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
